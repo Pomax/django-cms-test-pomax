@@ -188,7 +188,7 @@ CMS_PLACEHOLDER_CONF = {}
 DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'ec2-54-83-47-194.compute-1.amazonaws.com',
         'NAME': 'dc6fgvf3gmcdcp',
         'PASSWORD': '2c9fa79656338817d22956271fef14256b8edeeb7e95c151bc7bfca1979ea122',
