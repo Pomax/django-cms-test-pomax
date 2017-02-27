@@ -1,1 +1,1 @@
-web: gunicorn testsite.wsgi --log-file -
+web: sh startup.sh
