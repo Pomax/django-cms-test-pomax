@@ -28,7 +28,7 @@ SECRET_KEY = '^)dhql2b*5297^5pa$uzff15kwxqa4=l1!na1*n1-r2n!qc)&0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-cms-test-pomax.herokuapp.com']
 
 
 # Application definition
